@@ -91,3 +91,78 @@ figure
 {
     margin-top:15%;
 }
+
+.seccion-2
+{
+    color: #1F313C;
+}
+
+h2
+{
+    font-family: 'Montserrat';
+    font-size: 42px;
+}
+
+article
+{
+    width: 100%;
+    height: 300px;
+    border: 1px solid #000;
+    box-sizing: border-box;
+    padding: 40px;
+    border-radius: 20px;
+    display: flex;
+    margin-bottom:10%;
+}
+
+.art-1,
+.art-2
+{
+    display: inline-block;
+    height: 100%;
+    width: 49%;
+}
+
+.art-2
+{
+    position: relative;
+}
+
+.art-1 h3 
+{
+    font-size: 32px;
+    margin-top:0;
+}
+
+.separador
+{
+    width:10%;
+    display: inline-block;
+    height: 3px;
+    background: linear-gradient(to left, #ff7050, #fe364e);
+    border: none;
+    border-radius: 5px;
+}
+
+.rockstar
+{
+    width:100%;
+    position: absolute;
+    right: -80px;
+    bottom: -40px;
+}
+
+article:nth-of-type(even) > .art-1 /*Even=> pares | odd => impar*/
+{
+    order:2;
+}
+
+article:nth-of-type(even) > .art-2 .rockstar
+{
+    width:120%;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    top:-30px;
+    left: -100px;
+}
