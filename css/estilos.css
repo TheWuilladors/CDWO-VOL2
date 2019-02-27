@@ -115,6 +115,12 @@ article
     margin-bottom:10%;
 }
 
+article figure
+{
+    margin: 0;
+    padding: 0;
+}
+
 .art-1,
 .art-2
 {
