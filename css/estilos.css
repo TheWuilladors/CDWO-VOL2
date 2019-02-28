@@ -440,3 +440,32 @@ article:nth-of-type(even) > .art-2 .rockstar
     font-weight: 100;
     font-family: 'Allerta';
 }
+
+.footer-blog
+{
+    padding:40px;    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-blog p,
+.footer-blog a
+{
+    padding: 10 15px;
+    margin: 5px;
+}
+
+.footer-blog p
+{
+    color: #9c9c9c;
+}
+
+.footer-blog a 
+{
+    border: 1px solid #8c8c8c;
+    background: #e8e8e8;
+    color: #2c2d2d;
+    font-weight: 600;
+}
