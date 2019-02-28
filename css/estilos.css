@@ -29,6 +29,8 @@ figure
     margin-left: 25px;
     padding-bottom: 10px;
     transition: all .3s ease;
+    color: white;
+    text-decoration: none;
 }
 
 .menu ul li a:hover
